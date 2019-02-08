@@ -46,6 +46,7 @@ nav#gameLinks a::after {
 nav#gameLinks a:hover::after {
     opacity: 1;
     width: 100%;
+    /* What all these lines do is make the tabs for the webpage have a nice design, and what I mean about this is that whenever you hover over the tabs it will then will change to have this loading bar. And this loading bar has a color gradient where it starts off at a yellow color and transitions to a darkish orange color.  */
 }
 
 
@@ -83,6 +84,8 @@ div#fox {
     animation: playSprite 3.5s 4s steps(27) infinite;
 }
 
+/* What all these lines of code do is make the all the picture be position right and what i mean by this is the line of code insert the images of the fox, butterfly and bat. Also these lines of code position these images in the proper place.  */
+
 
 
 /* Animation Styles */
@@ -114,3 +117,5 @@ div#fox {
         left: 100%;
     }
 }
+
+/* These lines of code give the image movement and basically sets everything into motion. */
